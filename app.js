@@ -15,8 +15,29 @@ retirementGermany(1990)
 retirementUS(1990)
 retirementIceland(1990)
 
-//retirement(66)(1990);
+retirement(66)(1990)
 
+// Check this crap out
+
+var user = {
+	name: 'Jonathan',
+	lastLogin: 3,
+	favoriteThing: 'family'
+}
+
+var welcomeMessage = 'Welcome, '
+welcomeMessage += user.name
+welcomeMessage += '. You last logged in '
+welcomeMessage += user.lastLogin
+welcomeMessage += ' days ago. We know your favorite thing is your '
+welcomeMessage += user.favoriteThing
+welcomeMessage += '!'
+
+console.log(welcomeMessage)
+
+/*
+=> Welcome, Jonathan. You last logged in 3 days ago. We know your favorite thing is your family!
+*/
 
 // function interviewQuestion(job) {
 // return function(name) {
