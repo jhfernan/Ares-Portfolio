@@ -39,6 +39,12 @@ console.log(welcomeMessage)
 => Welcome, Jonathan. You last logged in 3 days ago. We know your favorite thing is your family!
 */
 
+var welcomeMessage2 = `Welcome, ${user.name}. `
+welcomeMessage2 += `You last logged in ${user.lastLogin} days ago. `
+welcomeMessage2 += `We know your favorite thing is your ${user.favoriteThing}!`
+
+console.log(welcomeMessage2)
+
 // function interviewQuestion(job) {
 // return function(name) {
 // if (job === 'designer') {
